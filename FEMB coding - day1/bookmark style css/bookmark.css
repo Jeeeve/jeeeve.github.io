@@ -1,0 +1,45 @@
+h1{
+    background-image: url("https://arborinfinity.com/wp-content/uploads/2020/08/maxresdefault-2020-08-29T230033.081.jpg"); 
+    color: #53728F;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quote{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: fantasy;
+    background-color: #759BBF;
+    padding: 10px;
+
+}
+
+.list{
+    border: dotted #BF7875;
+    background-color: #ACF2EF;
+    padding: 10px;
+    color: #BF7875;
+    font-size: 1.5rem;
+
+}
+
+#cite{
+    color: #F58B71;
+}
+
+a:link {
+    color: #759BBF;
+}
+
+a:visited{
+    color: #53728F;
+}
+
+a:hover{
+    background-color: #ACF2EF;
+}

@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-size: 1 rem;
+      background-image: url(https://i.pinimg.com/736x/e0/dc/3a/e0dc3a58c26d7d0d4a063b6e88a7564f.jpg);
+  }
+  h1,h3,legend {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+  }
+
+  .wrapper {
+      background-color: #CDDC4D;
+      width: 80%;
+      margin:2rem auto;
+      padding: 2rem;
+      display: flex;
+      flex-flow: row nowrap;
+  }
+
+  section {
+      flex-basis: 60%;
+      margin-right: 3rem;
+}
+
+  aside {
+      flex-basis: 40%;
+}
+
+  fieldset {
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+      
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border: 0px solid red;
+    
+  }
+
+  p{
+    border: 0px solid green
+  }
+
+  .aboutus{
+    margin:0;
+  }
+
+  label {
+    display: block;
+    padding-bottom: 0.3rem;
+    border-radius: 10px;
+}
+
+  textarea {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: 1px solid black
+  }
+  
+  
+  input:not([type="radio"]):not([type="checkbox"]),textarea{
+    padding: 0.3rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: 1px solid black;
+
+  }
+  .bottomform{
+    padding-bottom: 1rem;
+  }
+  select{
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0.3rem;
+    border: 1px solid black;
+  }
+  
+  button{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: #537927;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-left: auto;
+    display: block;
+  }
+  
+  button:hover {
+    color: #537927;
+    background-color: white;
+  }
+  
+  .address {
+    margin-bottom: 2rem;
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
